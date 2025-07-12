@@ -1,5 +1,8 @@
 #!/bin/bash
 
+set -x  # her komutu çalışmadan önce terminale yazsın
+set -e  # bir komut hata verirse script orada dursun
+
 # Clear Screen
 tput reset 2>/dev/null || clear
 
